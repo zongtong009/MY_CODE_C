@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
 		int x=j ,is_prime=1;
 		//printf("请输入一个数： ");
 		//scanf("%d",&x) ;
-		if(x==1 ||x==4){
+		if(x==1 ){
 			printf("%d不是质数\n",x);
 			continue; 
 		}else if(x==2 ||x==3){
