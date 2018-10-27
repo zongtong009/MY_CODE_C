@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*注释*/
+/*修改const设置的值*/
 int main(int argc, char *argv[]) {
 	const int a=5;
 	int *p = (int *)&a; 
