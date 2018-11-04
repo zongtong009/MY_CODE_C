@@ -7,9 +7,8 @@ int main(int argc, char *argv[]) {
 	int a[]={13,56,21,11,6,55,32,24,21,13,36,44,15,};
 	       // 13   21 11 6    32 24 21 13         15
 	int len=sizeof(a)/sizeof(a[0]);
-	//printf("%d %d\n",a[0],len);
 	sort(a,len);   //≈≈–Úsort 
-	
+		
 	for(int i=0;i<len;i++){  // ‰≥ˆa[] 
 		printf("%d\t",a[i]);
 		if((i+1) %5==0 ){  

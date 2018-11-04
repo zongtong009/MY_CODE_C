@@ -2,18 +2,19 @@
 
 int main () {
 	int  var = 20;   /* 实际变量声明 */
-	int  *ip,*iq;        /* 指针变量声明 */
+	int  *ip;        /* 指针变量声明 */
 	printf("%d\n\n",var);
 
-	scanf( "%d", &var);
-	printf("var=%d &var=%p ip=%p iq=%p\n\n",var,&var,++ip,++iq);
-
+	scanf( "%d", &var);  
+	printf("var=%d &var=%p ip=%p \n\n",var,&var,ip);
+	printf("++ip=%p\n\n",++ip);
+						//&获得所对应指针的地址 
 	ip = &var;          //  ip = &var= *&ip= &*ip; ip,&var都是指针                                                            /* 在指针变量中存储 var 的地址 */
-	scanf( "%d" , ip);  //  *ip=*(&var)=var
-	printf("var=%d   *ip=%d\n",var,*ip);
-	printf("&var=%p  ip=%p\n",&var,ip);
-	printf("*(&var)=%d  ,*&var=%d\n" ,*(&var),*&var );
-	printf("&(*ip)=%p ,&*ip=%p\n",&(*ip),&*ip );
+	scanf( "%d" , ip);  //  *ip=*(&var)=var	//55
+	printf("var=%d   *ip=%d\n",var,*ip);	//55
+	printf("&var=%p  ip=%p\n",&var,ip);		//0x00000
+	printf("*(&var)=%d  ,*&var=%d\n" ,*(&var),*&var );	//55
+	printf("&(*ip)=%p ,&*ip=%p\n",&(*ip),&*ip );		//0x00000
 	printf("&ip=%p *&ip=%p\n", &ip,*&ip );
 	
 	return 0;
