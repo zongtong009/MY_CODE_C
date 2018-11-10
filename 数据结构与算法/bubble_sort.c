@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-void swap(int *a,int *b){//交换函数 
+void swap(int *a,int *b){  //交换函数
 	int temp;
 	temp=*a;
 	*a=*b;
