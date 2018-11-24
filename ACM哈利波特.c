@@ -3,7 +3,7 @@
 int main(){
     int N,M,i;//N为动物总数，M是用于直接变形的魔咒条数 
     
-    scanf("%d %d",&N, &M); 
+    scanf("%d %d",&N, &M);
 	
 	int array_N1[M] ,array_N2[M],arrayM[M];  //M可以认为是输入行数   
     for(int i=0;i<M;i++) {
