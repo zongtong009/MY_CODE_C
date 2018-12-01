@@ -25,6 +25,7 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+
 void add(List *pList, int number)
 {
     //add to linked-list
@@ -47,8 +48,9 @@ void add(List *pList, int number)
         pList->head = p;
     }
 }
+
 int funnn(void){
    printf()
-   
+
 
 }
