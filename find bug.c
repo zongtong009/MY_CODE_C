@@ -5,7 +5,7 @@ int main(int argc, char *argv[]) {
 	while(1) {
 		int n;
 		puts("请输入一个整数： ");
-		if (scanf("%d",&n)==0) {
+		if (scanf("%d",&n)==0) {//输入一个字符或其他不符合条件
 			break;
 		}
 		for (int i=0; i<n; i++) {
