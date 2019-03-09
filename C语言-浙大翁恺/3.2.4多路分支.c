@@ -3,7 +3,7 @@
 
 /*注释*/
 int main(int argc, char *argv[]) {
-	int type=2;
+	int type=22;
 	switch(type){
 		case 1:
 			printf("    1");
@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 			printf("    3");
 			break;
 		default:
-			printf("都不对"); 
+			printf("都不对");
 		//break;
 		/*如果default在中间需要break*/
 	}
