@@ -3,11 +3,12 @@
 
 /*注释*/
 int main(int argc, char *argv[]) {
-	int a=1,b=1;
+	long long a=1,b=1;
 	while(a>0){
-		a++;
+		a+=10000;
 	}
-	printf("最大的int值是 %d\n",a-1);
+	
+	printf("最大的int值是 %u\n",a-10000);
 	a--;
 	while(a/10>0){
 		a/=10;

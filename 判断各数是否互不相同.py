@@ -1,9 +1,9 @@
-def fun(string):
+def fun(lst):
     result = 0
-    s_plus = copy.deepcopy(string)
-    for item in string:
+    s_plus = copy.deepcopy(lst)
+    for item in lst:
         s_plus.remove(item)
-        if item in string:
+        if item in lst:
             result = 1
     return result
 
