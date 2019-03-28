@@ -6,9 +6,11 @@
 
 int main(int argc, char *argv[]) {
 	
-	int a=21-13,b=19;
-	swap(&a,&b);
-	printf("a=%d \nb=%d",a,b);
-	
+//	int a=21-13,b=19;
+//	swap(&a,&b);
+//	printf("a=%d \nb=%d",a,b);
+	for(;;){
+		printf("gfgds\n");
+	}
 	return 0;
 }
