@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 /****************************************************************/
+static int a = 10;
 void fun(){
-	static int a = 10;
+	
 	a--;
 	printf("%d\n",a);
 }
 int main(void) {
 	fun();
 	fun();
-	int a = 1;
+	a = 10;
 	fun();
 	
 

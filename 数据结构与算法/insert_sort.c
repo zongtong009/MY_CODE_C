@@ -6,7 +6,7 @@
 //	for(i=1;i<len;i++){  //从第二个数开始 
 //		temp=array[i]; 	//i		1	2	3	  
 //		j=i-1; 			//j		0	1	2
-//		while(j>=0 && array[j]>temp){
+//		while(j>=0 && array[j]>temp){//如果左边比最右边的数还大
 //			array[j+1]=array[j];
 //			j--;
 //		}
