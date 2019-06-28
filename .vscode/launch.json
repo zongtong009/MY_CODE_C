@@ -13,7 +13,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true, //true 外部终端，false 调试控制台
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin\\gdb.exe",
             "setupCommands": [
@@ -24,7 +24,6 @@
                 }
             ],
             "preLaunchTask": "gcc.exe build active file",
-            
         }
     ]
 }
