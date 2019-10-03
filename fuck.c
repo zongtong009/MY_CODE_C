@@ -1,18 +1,13 @@
 #include <stdio.h>
-int max() { return 0; }
 
-int main() {
+int main()
+{
+    int fucktion = 0;
 fuck:
-    printf("Hello World!\n ");
-    static int fucktion = 0;
-
+    printf("Hello World!%d\n ", fucktion);
     if (fucktion < 1000) {
         ++fucktion;
         goto fuck;
-    }
-
-    for (int i = 0; i < 10; i++) {
-        ;
     }
     printf("Hello World!\n ");
     char s = getchar();
